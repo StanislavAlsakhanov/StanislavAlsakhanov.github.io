@@ -1,0 +1,40 @@
+.thanks__img {
+    height: 100vh;
+    min-height: 568px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    margin-top: -177px;
+}
+.thanks__inner {
+    position: absolute;
+    top: 277px;
+}
+.thanks__number {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Montserrat-600";
+    margin-bottom: 20px;
+}
+.thanks__descr {
+    margin-bottom: 45px;
+}
+@media (max-width: 991px) {
+    .thanks__img {
+        margin-top: -71px;
+    }
+    .thanks__inner {
+        top: 171px;
+    }
+}
+@media (max-width: 767px) {
+    .thanks__img {
+        margin-top: -54px;
+    }
+    .thanks__inner {
+        top: 154px;
+        right: 10px;
+        left: 10px;
+        text-align: center;
+    }
+}

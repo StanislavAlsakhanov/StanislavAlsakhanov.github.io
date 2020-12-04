@@ -1,0 +1,190 @@
+/* Brand */
+.brand {
+    padding-bottom: 50px;
+}
+.brand__block {
+    margin-bottom: 20px;
+}
+.brand__block:first-of-type{
+    position: relative;
+    padding-left: 200px;
+}
+.brand__logo {
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.brand__item {
+    position: relative;
+    padding-left: 10px;
+}
+.brand__item::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    top: 9px;
+    left: 0;
+    background-color: #000000;
+}
+.brand__footer {
+    display: flex;
+    padding: 65px 0;
+}
+.brand-info {
+    max-width: 570px;
+    width: 100%;
+    background: #F4F4F4;
+    padding: 55px 30px 50px 60px;
+}
+.brand-info__header {
+    margin-bottom: 20px;
+}
+.brand-info__header .title--light {
+    margin-bottom: 15px;
+}
+.brand-info__subtitle {
+    font-size: 16px;
+    font-family: "Montserrat-600";
+}
+.brand__img {
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 991px) {
+    .brand-info {
+        max-width: 420px;
+        padding: 55px 30px 50px 30px;
+    }
+}
+@media (max-width: 767px) {
+    .brand {
+        padding-bottom: 30px;
+    }
+    .brand--padding {
+        padding-bottom: 0;
+    }
+    .brand__block:first-of-type{
+        padding-left: 130px;
+    }
+    .brand__logo {
+        width: 120px;
+    }
+    .brand__footer {
+        flex-direction: column-reverse;
+        padding: 40px 0 0;
+        margin: 0 -10px;
+    }
+    .brand-info {
+        max-width: none;
+    }
+    .brand__img {
+        width: 100%;
+    }
+}
+@media (max-width: 567px) {
+    .brand__block:first-of-type{
+        padding-left: 0;
+    }
+    .brand__logo {
+        width: 180px;
+        position: static;
+    }
+    .brand-info {
+        text-align: center;
+        padding: 30px 10px 40px 10px;
+    }
+    .brand-info__subtitle {
+        font-size: 13px;
+    }
+}
+
+/* Products */
+.products {
+    padding-bottom: 97px;
+}
+.products__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -13px;
+    padding-bottom: 10px;
+}
+.products__body > * {
+    flex: 1;
+    min-width: 19%;
+    max-width: calc(25% - 26px);
+    margin: 13px;
+}
+@media (max-width: 991px) {
+    .products {
+        padding-bottom: 70px;
+    }
+    .products__body {
+        margin: 0 -5px;
+    }
+    .products__body > * {
+        min-width: 29%;
+        max-width: calc(33.33333% - 10px);
+        margin: 13px 5px;
+    }
+}
+@media (max-width: 567px) {
+    .products {
+        padding-bottom: 40px;
+    }
+    .products__body > * {
+        min-width: 40%;
+        max-width: calc(50% - 10px);
+        margin: 13px 5px;
+    }
+}
+
+/* Cosmetics */
+.cosmetics {
+    padding-bottom: 113px;
+}
+@media (max-width: 767px) {
+    .cosmetics {
+        text-align: center;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 567px) {
+    .cosmetics {
+        padding-bottom: 50px;
+    }
+}
+
+/* Request */
+.request {
+    background-color: #fff;
+    padding: 112px 0;
+}
+.request__inner {
+    display: flex;
+    align-items: flex-start;
+}
+.request__header {
+    margin-right: 60px;
+}
+.request__body {
+    flex: 1;
+}
+@media (max-width: 991px) {
+    .request {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .request__inner {
+       display: block;
+    }
+    .request__header {
+        margin-right: 0;
+    } 
+}
+@media (max-width: 567px) {
+    .request {
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <title>PAYOT</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <ul class="header-top__list">
+                    <li class="header-top__item">
+                        <a href="delivery.html" class="header-top__link">Доставка и оплата</a>
+                    </li>
+                    <li class="header-top__item">
+                        <a href="contacts.html" class="header-top__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header-top__search">
+                    <form class="form">
+                        <input placeholder="Поиск" type="text" class="form__input form__input--search">
+                        <button class="form__search">
+                            <div class="form__icon _icon-search"></div>
+                        </button>
+                    </form>
+                </div>
+                <div class="header-top__row">
+                    <a href="tel:+77272507702" class="header-top__phone">
+                        <div class="header-top__icon _icon-phone"></div>
+                        <span>+7 727 250 77 02</span>
+                    </a>
+                    <a href="#" class="header-top__location">
+                        <div class="header-top__icon _icon-location"></div>
+                        <span>Алматы</span>
+                    </a>
+                </div>
+                <div class="header-top__row">
+                    <a href="#" class="header-top__favorites">
+                        <div class="header-top__img _icon-favorites"></div>
+                    </a>
+                    <a href="basket.html" class="header-top__basket">
+                        <div class="header-top__img _icon-basket"></div>
+                        <span class="header-top__count">1</span>
+                    </a>
+                    <a href="#" class="header-top__user">
+                        <div class="header-top__img _icon-user"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="header-main">
+                <ul class="header-main__list">
+                    <a href="index.html" class="header-main__logo">
+                        <img src="img/general/logo.svg" alt="Лого">
+                    </a>
+                    <li class="header-main__item">
+                        <a href="category.html" class="header-main__link">Все категории</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="brands.html" class="header-main__link">Бренды</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="women.html" class="header-main__link">Для женщин</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="man.html" class="header-main__link">Для мужчин</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="#" class="header-main__link">Подарочные наборы</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="#" class="header-main__link">Специальные цены</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="not-found.html" class="header-main__link">Для профессионалов</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__inner">
+                    <a href="index.html" class="header-mobile__logo">
+                        <img src="img/general/logo.svg" alt="Лого">
+                    </a>
+                    <div class="header-top__search">
+                        <form class="form">
+                            <input placeholder="Поиск" type="text" class="form__input form__input--search">
+                            <button class="form__search">
+                                <div class="form__icon _icon-search"></div>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="header__block">
+                        <a href="#" class="header-top__basket">
+                            <div class="header-top__img _icon-basket"></div>
+                            <span class="header-top__count">1</span>
+                        </a>
+                        <div class="mobile">
+                            <div class="sandwich">
+                                <div class="sandwich__line sandwich__line--top"></div>
+                                <div class="sandwich__line sandwich__line--middle"></div>
+                                <div class="sandwich__line sandwich__line--bottom"></div>
+                            </div>
+                            <div class="mobile__content">
+                                <div class="mobile__block">
+                                    <ul class="mobile-nav__list">
+                                        <li class="mobile-nav__item">
+                                            <a href="#" class="mobile-nav__link">Доставка и оплата</a>
+                                        </li>
+                                        <li class="mobile-nav__item">
+                                            <a href="#" class="mobile-nav__link">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile__block">
+                                    <ul class="mobile-menu__list">
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Все категории</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Бренды</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для женщин</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для мужчин</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Подарочные наборы</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Специальные цены</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для профессионалов</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile__block">
+                                    <ul class="mobile-contacts__list">
+                                        <li class="mobile-contacts__item">
+                                            <a href="tel:+77272507702" class="mobile-contacts__link">
+                                                <div class="header-top__icon _icon-phone"></div>
+                                                <span>+7 727 250 77 02</span>
+                                            </a>
+                                        </li>
+                                        <li class="mobile-contacts__item">
+                                            <a href="#" class="mobile-contacts__link">
+                                                <div class="header-top__icon _icon-location"></div>
+                                                <span>Алматы</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="mobile-icon__list">
+                                        <li class="mobile-icon__item">
+                                            <a href="#" class="mobile-icon__link">
+                                                <div class="mobile-icon__img _icon-favorites"></div>
+                                            </a>
+                                        </li>
+                                        <li class="mobile-icon__item">
+                                            <a href="#" class="mobile-icon__link">
+                                                <div class="mobile-icon__img _icon-user"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__inner">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="index.html" class="breadcrumbs__link">
+                                <span>Главная</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="index.html" class="breadcrumbs__link">
+                                <span>Бренды</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <div class="breadcrumbs__current">
+                                <span>PAYOT</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="brand">
+            <div class="container">
+                <div class="brand__header anim-items anim-no-hide anim-show">
+                    <h2 class="title"><span>Космецевтика</span> PAYOT <span>(Швейцария)</span></h2>
+                </div>
+                <div class="brand__body">
+                    <div class="brand__block text">
+                        <img class="brand__img" src="img/brands/04.png" alt="">
+                        <p>Марка Пайот имеет всемирную известность, так как сочетает в себе комплексный подход, основанный на использовании косметических средств, особых правил их нанесения, а также специальной гимнастики для мышц лица и тела.</p>
+                    </div>
+                    <div class="brand__block text">
+                        <p>Среди основных принципов компании:</p>
+                        <ul class="brand__list">
+                            <li class="brand__item text">
+                                <p>отсутствие сырья и ингредиентов животного происхождения;</p>
+                            </li>
+                            <li class="brand__item text">
+                                <p>отказ от тестирования продукции на животных;</p>
+                            </li>
+                            <li class="brand__item text">
+                                <p>предлагать не только средства, но и методики их использования.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="brand__block text">
+                        <p>История компании начинается с ее основательницы Нади Пайо. Ее фамилия произносится точно также, как и уже известный на международном уровне бренд.</p>
+                    </div>
+                    <div class="brand__block text">
+                        <p>Уроженка Одессы всегда интересовалась здоровьем и хотела стать врачом. Она даже получила медицинское образование. Свое призвание девушка видела в помощи людям, которые не могут позволить себе полноценных медицинских услуг. Постепенно она пришла к своему призванию – делать женщин еще красивее. В ходе своей работы в бьюти-индустрии она заметила, что для поддержания хорошего состояния кожи важно не только ухаживать за покровом, но и тренировать мышцы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products__header anim-items anim-no-hide anim-show">
+                    <h2 class="title">Товары</h2>
+                </div>
+                <div class="products__body">
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <img class="product__zont" src="img/general/zont.svg" alt="">
+                            <div class="product__action">АКЦИЯ</div>
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/01.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/01.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/02.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/02.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/03.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/03.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <img class="product__zont" src="img/general/zont.svg" alt="">
+                            <div class="product__action">АКЦИЯ</div>
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/04.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/04.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <img class="product__zont" src="img/general/zont.svg" alt="">
+                            <div class="product__action">АКЦИЯ</div>
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/01.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/01.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/02.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/02.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/03.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/03.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <img class="product__zont" src="img/general/zont.svg" alt="">
+                            <div class="product__action">АКЦИЯ</div>
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/04.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/04.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <img class="product__zont" src="img/general/zont.svg" alt="">
+                            <div class="product__action">АКЦИЯ</div>
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/01.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/01.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/02.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/02.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/03.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/03.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__header">
+                            <img class="product__payot" src="img/product/05.png" alt="">
+                            <img class="product__zont" src="img/general/zont.svg" alt="">
+                            <div class="product__action">АКЦИЯ</div>
+                            <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                <picture>
+                                    <source class="product__img" srcset="img/product/04.webp"
+                                        type="image/webp">
+                                    <img class="product__img" src="img/product/04.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="product__body">
+                            <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                            <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                        </div>
+                        <div class="product__footer">
+                            <div class="product-size">
+                                <div class="product-size__small">50 мл</div>
+                                <div class="product-size__big">125 мл</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__old">5 100 ₸</div>
+                                <div class="product-price__new">6 100 ₸</div>
+                            </div>
+                            <div class="product__bottom">
+                                <button class="btn">купить</button>
+                                <div class="product__icon _icon-favorites"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__footer">
+                    <div class="pagination">
+                        <a href="" class="pagination__arrow">
+                            <div class="pagination__icon _icon-arrow-prev"></div>
+                        </a>
+                        <ul class="pagination__list">
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link active">1</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">2</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">3</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">4</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">5</a>
+                            </li>
+                        </ul>
+                        <a href="" class="pagination__arrow">
+                            <div class="pagination__icon _icon-arrow-next"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="request">
+            <div class="container">
+                <div class="request__inner">
+                    <div class="request__header">
+                        <h3 class="title-h3">Оставьте заявку <br>и получите сертификаты <br><span>на интересующую вас <br>продукцию</span></h3>
+                    </div>
+                    <div class="request__body">
+                        <form class="form request__form">
+                            <div class="form__row">
+                                <div class="form__item">
+                                    <input class="form__input" type="text" name="text" placeholder="название продукта">
+                                </div>
+                                <div class="form__item">
+                                    <input class="form__input" type="text" name="text" placeholder="бренд">
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__item">
+                                    <input class="form__input" type="text" name="name" placeholder="имя">
+                                </div>
+                                <div class="form__item">
+                                    <input class="form__input" type="email" name="email" placeholder="почта">
+                                </div>
+                            </div>
+                            <div class="form__button">
+                                <button class="btn btn--black">запрос</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__col">
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для женщин</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для мужчин</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Подарочные наборы</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Специальные цены</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__col footer-top__col--center">
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Бренды</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для профессионалов</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">О компании</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__col">
+                    <ul class="footer-top__list footer-top__list--row">
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/hamilton.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/payot.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/teoxane.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__col">
+                    <a href="index.html" class="footer-bottom__logo">
+                        <img src="img/footer/logo.svg" alt="Лого">
+                    </a>
+                </div>
+                <div class="footer-bottom__col footer-bottom__col--center">
+                    <div class="footer-bottom__copyright">Все права защищены 2003-2020<a href="#"
+                            class="footer-bottom__link">Политика конфиденциальности</a></div>
+                    <ul class="footer-bottom__list">
+                        <li class="footer-bottom__item">
+                            <a href="" class="footer-bottom__link">
+                                <div class="footer-bottom__icon _icon-instagram"></div>
+                            </a>
+                        </li>
+                        <li class="footer-bottom__item">
+                            <a href="" class="footer-bottom__link">
+                                <div class="footer-bottom__icon _icon-facebook"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom__col">
+                    <a href="" class="footer-bottom__grad">
+                        <img src="img/footer/grad.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top"></button>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

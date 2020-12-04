@@ -1,0 +1,119 @@
+/* Stock */
+.stock {
+    padding-bottom: 85px;
+}
+.stock__body {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+.stock__img {
+    height: 365px;
+    object-fit: cover;
+}
+.stock__info {
+    flex: 0 0 350px;
+    width: 350px;
+    margin-left: 64px;
+}
+.stock__name {
+    font-size: 18px;
+    line-height: 1.87;
+    text-transform: uppercase;
+    font-family: "Montserrat-600";
+    margin-bottom: 15px;
+}
+.stock__name span {
+    font-size: 40px;
+    color: #bd2929;
+}
+.stock__descr {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.stock__text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3f3f3f;
+    margin-bottom: 24px;
+}
+
+/* Countdown */
+.countdown-wrapper {
+    background: #F4F4F4;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.countdown-title {
+    line-height: 1.5;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.countdown {
+    display: inline-flex;
+    letter-spacing: 0.09em;
+    font-family: "Montserrat-500";
+}
+.countdown-number {
+    margin: 0 5px;
+}
+@media (max-width: 991px) {
+    .stock {
+        padding-bottom: 70px;
+    }
+    .stock__info {
+        margin-left: 40px;
+    }
+    .stock__body {
+        margin-bottom: 45px;
+    }
+    .stock__text p {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .stock {
+        padding-bottom: 55px;
+    }
+    .stock__info {
+        margin-left: 20px;
+    }
+    .stock__body {
+        margin-bottom: 30px;
+    }
+    .stock__text p {
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 567px) {
+    .stock {
+        padding-bottom: 40px;
+    }
+    .stock__body {
+        display: block;
+    }
+    .stock__img {
+        height: auto;
+    }
+    .stock__info {
+        flex: auto;
+        width: auto;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .stock__text p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 413px) {
+    .stock__name {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .stock__name span {
+        font-size: 30px;
+    }
+}

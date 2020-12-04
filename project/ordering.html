@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ordering.css">
+    <title>Оформление заказа</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <ul class="header-top__list">
+                    <li class="header-top__item">
+                        <a href="delivery.html" class="header-top__link">Доставка и оплата</a>
+                    </li>
+                    <li class="header-top__item">
+                        <a href="contacts.html" class="header-top__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header-top__search">
+                    <form class="form">
+                        <input placeholder="Поиск" type="text" class="form__input form__input--search">
+                        <button class="form__search">
+                            <div class="form__icon _icon-search"></div>
+                        </button>
+                    </form>
+                </div>
+                <div class="header-top__row">
+                    <a href="tel:+77272507702" class="header-top__phone">
+                        <div class="header-top__icon _icon-phone"></div>
+                        <span>+7 727 250 77 02</span>
+                    </a>
+                    <a href="#" class="header-top__location">
+                        <div class="header-top__icon _icon-location"></div>
+                        <span>Алматы</span>
+                    </a>
+                </div>
+                <div class="header-top__row">
+                    <a href="#" class="header-top__favorites">
+                        <div class="header-top__img _icon-favorites"></div>
+                    </a>
+                    <a href="basket.html" class="header-top__basket">
+                        <div class="header-top__img _icon-basket"></div>
+                        <span class="header-top__count">1</span>
+                    </a>
+                    <a href="#" class="header-top__user">
+                        <div class="header-top__img _icon-user"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="header-main">
+                <ul class="header-main__list">
+                    <a href="index.html" class="header-main__logo">
+                        <img src="img/general/logo.svg" alt="Лого">
+                    </a>
+                    <li class="header-main__item">
+                        <a href="category.html" class="header-main__link">Все категории</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="brands.html" class="header-main__link">Бренды</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="women.html" class="header-main__link">Для женщин</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="man.html" class="header-main__link">Для мужчин</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="#" class="header-main__link">Подарочные наборы</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="#" class="header-main__link">Специальные цены</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="not-found.html" class="header-main__link">Для профессионалов</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__inner">
+                    <a href="index.html" class="header-mobile__logo">
+                        <img src="img/general/logo.svg" alt="Лого">
+                    </a>
+                    <div class="header-top__search">
+                        <form class="form">
+                            <input placeholder="Поиск" type="text" class="form__input form__input--search">
+                            <button class="form__search">
+                                <div class="form__icon _icon-search"></div>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="header__block">
+                        <a href="#" class="header-top__basket">
+                            <div class="header-top__img _icon-basket"></div>
+                            <span class="header-top__count">1</span>
+                        </a>
+                        <div class="mobile">
+                            <div class="sandwich">
+                                <div class="sandwich__line sandwich__line--top"></div>
+                                <div class="sandwich__line sandwich__line--middle"></div>
+                                <div class="sandwich__line sandwich__line--bottom"></div>
+                            </div>
+                            <div class="mobile__content">
+                                <div class="mobile__block">
+                                    <ul class="mobile-nav__list">
+                                        <li class="mobile-nav__item">
+                                            <a href="#" class="mobile-nav__link">Доставка и оплата</a>
+                                        </li>
+                                        <li class="mobile-nav__item">
+                                            <a href="#" class="mobile-nav__link">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile__block">
+                                    <ul class="mobile-menu__list">
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Все категории</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Бренды</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для женщин</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для мужчин</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Подарочные наборы</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Специальные цены</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для профессионалов</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile__block">
+                                    <ul class="mobile-contacts__list">
+                                        <li class="mobile-contacts__item">
+                                            <a href="tel:+77272507702" class="mobile-contacts__link">
+                                                <div class="header-top__icon _icon-phone"></div>
+                                                <span>+7 727 250 77 02</span>
+                                            </a>
+                                        </li>
+                                        <li class="mobile-contacts__item">
+                                            <a href="#" class="mobile-contacts__link">
+                                                <div class="header-top__icon _icon-location"></div>
+                                                <span>Алматы</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="mobile-icon__list">
+                                        <li class="mobile-icon__item">
+                                            <a href="#" class="mobile-icon__link">
+                                                <div class="mobile-icon__img _icon-favorites"></div>
+                                            </a>
+                                        </li>
+                                        <li class="mobile-icon__item">
+                                            <a href="#" class="mobile-icon__link">
+                                                <div class="mobile-icon__img _icon-user"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__inner">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="index.html" class="breadcrumbs__link">
+                                <span>Главная</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="index.html" class="breadcrumbs__link">
+                                <span>Корзина</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <div class="breadcrumbs__current">
+                                <span>Оформление заказа</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="ordering">
+            <div class="container">
+                <div class="ordering__header anim-items anim-no-hide anim-show">
+                    <h2 class="title"><span>Оформление</span> заказа</h2>
+                </div>
+                <div class="ordering__body">
+                    <form class="ordering__form">
+                        <div class="ordering__top">
+                            <div class="ordering__main">
+                                <div class="ordering__section">
+                                    <div class="ordering__label">Выберите адрес:</div>
+                                    <div class="ordering__row">
+                                        <label class="radio">
+                                            <input class="radio__input" type="radio" name="name1">
+                                            <div class="radio__custom">
+                                                <div class="radio__name">Самал Жумалиева</div>
+                                                <div class="radio__location">
+                                                    <div class="radio__icon _icon-location"></div>
+                                                    <p class="radio__text">Казахстан 050000</p>
+                                                    <p class="radio__text">Алматинская область,</p>
+                                                    <p class="radio__text">Алматы Зенкова, дом 22</p>
+                                                </div>
+                                                <div class="radio__phone">
+                                                    <div class="radio__icon _icon-phone"></div>
+                                                    <div class="radio__text">8 777 777 77 77</div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <label class="radio">
+                                            <input class="radio__input" type="radio" name="name1">
+                                            <div class="radio__custom radio__custom--center">
+                                                <div class="radio__plus _icon-plus"></div>
+                                                <div class="radio__descr">добавить новый</div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="ordering__section">
+                                    <div class="ordering__label">Способ доставки:</div>
+                                    <div class="ordering__row">
+                                        <label class="radio">
+                                            <input class="radio__input" checked type="radio" name="name2">
+                                            <div class="radio__custom">
+                                                <div class="radio__name">Курьерская доставка</div>
+                                                <div class="radio__is-free">
+                                                    <div class="radio__free _icon-free"></div>
+                                                    <div class="radio__text">бесплатно</div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <label class="radio">
+                                            <input class="radio__input" type="radio" name="name2">
+                                            <div class="radio__custom">
+                                                <div class="radio__name">Самовызов</div>
+                                                <div class="radio__location">
+                                                    <div class="radio__icon _icon-location"></div>
+                                                    <p class="radio__text">Казахстан 050000</p>
+                                                    <p class="radio__text">Алматинская область,</p>
+                                                    <p class="radio__text">Алматы Зенкова, дом 22</p>
+                                                </div>
+                                                <a href="" class="radio__map">Посмотреть на карте</a>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ordering__aside">
+                                <div class="ordering-block">
+                                    <div class="ordering-block__header">
+                                        <span class="ordering-block__label">Ваш заказ:</span>
+                                        <div class="ordering-block__item">
+                                            <div class="ordering-block__img-wrapper anim-items anim-no-hide anim-scale">
+                                                <picture>
+                                                    <source class="ordering-block__img" srcset="img/product/06.webp"
+                                                        type="image/webp">
+                                                    <img class="ordering-block__img" src="img/product/06.png" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="ordering-block__info">
+                                                <div class="ordering-block__name">Deep Repair Balm</div>
+                                                <div class="ordering-block__text">Бальзам «Глубокое восстановление»
+                                                </div>
+                                            </div>
+                                            <div class="ordering-block__count">х2</div>
+                                            <div class="ordering-block__price">14 200 ₸</div>
+                                        </div>
+                                        <div class="ordering-block__item">
+                                            <div class="ordering-block__img-wrapper anim-items anim-no-hide anim-scale">
+                                                <picture>
+                                                    <source class="ordering-block__img" srcset="img/product/01.webp"
+                                                        type="image/webp">
+                                                    <img class="ordering-block__img" src="img/product/01.png" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="ordering-block__info">
+                                                <div class="ordering-block__name">MY PAYOT BRUME</div>
+                                                <div class="ordering-block__text"> Стимулирующая защитная дымка для лица
+                                                </div>
+
+                                            </div>
+                                            <div class="ordering-block__count">х1</div>
+                                            <div class="ordering-block__price">15 300 ₸</div>
+                                        </div>
+                                    </div>
+                                    <div class="ordering-block__body">
+                                        <div class="ordering-block__descr">Промокод (не обязательно)</div>
+                                        <input class="form__input" type="text" placeholder="ввести">
+                                        <div class="ordering-block__lines">
+                                            <div class="ordering-block__line">
+                                                <div class="ordering-block__label">Сумма заказа:</div>
+                                                <div class="text">29 500 ₸</div>
+                                            </div>
+                                            <div class="ordering-block__line">
+                                                <div class="ordering-block__label">Доставка:</div>
+                                                <div class="text">бесплатно</div>
+                                            </div>
+                                            <div class="ordering-block__line">
+                                                <div class="ordering-block__label">Итого к оплате:</div>
+                                                <div class="ordering-block__value">29 500 ₸</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ordering-block__footer">
+                                        <button class="btn btn--black" type="submit">Подтвердить заказ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ordering__bottom">
+                            <div class="ordering__section">
+                                <div class="ordering__label">Способ оплаты:</div>
+                                <div class="ordering__row">
+                                    <label class="radio">
+                                        <input class="radio__input" checked type="radio" name="name3">
+                                        <div class="radio__custom">
+                                            <div class="radio__name">Наличными</div>
+                                            <p class="radio__text">Оплата наличными при получении через курьера или в
+                                                пункте выдачи заказа</p>
+                                        </div>
+                                    </label>
+                                    <label class="radio">
+                                        <input class="radio__input" type="radio" name="name3">
+                                        <div class="radio__custom">
+                                            <div class="radio__name">Онлайн на сайте</div>
+                                            <p class="radio__text">Вы можете оплатить покупку прямо сейчас и получить
+                                                заказ как можно скорее</p>
+                                        </div>
+                                    </label>
+                                    <label class="radio">
+                                        <input class="radio__input" type="radio" name="name3">
+                                        <div class="radio__custom">
+                                            <div class="radio__name">Перевод на карту</div>
+                                            <p class="radio__text">Вы можете оплатить заказ с помощью Kaspi перевода
+                                                <br>на номер телефона:</p>
+                                            <div class="radio__phone">
+                                                <div class="radio__icon _icon-phone"></div>
+                                                <div class="radio__text">+7 702 584 78 78</div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ordering__hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__col">
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для женщин</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для мужчин</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Подарочные наборы</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Специальные цены</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__col footer-top__col--center">
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Бренды</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для профессионалов</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">О компании</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__col">
+                    <ul class="footer-top__list footer-top__list--row">
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/hamilton.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/payot.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/teoxane.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__col">
+                    <a href="index.html" class="footer-bottom__logo">
+                        <img src="img/footer/logo.svg" alt="Лого">
+                    </a>
+                </div>
+                <div class="footer-bottom__col footer-bottom__col--center">
+                    <div class="footer-bottom__copyright">Все права защищены 2003-2020<a href="#"
+                            class="footer-bottom__link">Политика конфиденциальности</a></div>
+                    <ul class="footer-bottom__list">
+                        <li class="footer-bottom__item">
+                            <a href="" class="footer-bottom__link">
+                                <div class="footer-bottom__icon _icon-instagram"></div>
+                            </a>
+                        </li>
+                        <li class="footer-bottom__item">
+                            <a href="" class="footer-bottom__link">
+                                <div class="footer-bottom__icon _icon-facebook"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom__col">
+                    <a href="" class="footer-bottom__grad">
+                        <img src="img/footer/grad.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top"></button>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

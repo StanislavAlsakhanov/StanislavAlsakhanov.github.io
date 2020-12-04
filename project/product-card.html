@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/product-card.css">
+    <title>Товар</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <ul class="header-top__list">
+                    <li class="header-top__item">
+                        <a href="delivery.html" class="header-top__link">Доставка и оплата</a>
+                    </li>
+                    <li class="header-top__item">
+                        <a href="contacts.html" class="header-top__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header-top__search">
+                    <form class="form">
+                        <input placeholder="Поиск" type="text" class="form__input">
+                        <button class="form__search">
+                            <div class="form__icon _icon-search"></div>
+                        </button>
+                    </form>
+                </div>
+                <div class="header-top__row">
+                    <a href="tel:+77272507702" class="header-top__phone">
+                        <div class="header-top__icon _icon-phone"></div>
+                        <span>+7 727 250 77 02</span>
+                    </a>
+                    <a href="#" class="header-top__location">
+                        <div class="header-top__icon _icon-location"></div>
+                        <span>Алматы</span>
+                    </a>
+                </div>
+                <div class="header-top__row">
+                    <a href="#" class="header-top__favorites">
+                        <div class="header-top__img _icon-favorites"></div>
+                    </a>
+                    <a href="#" class="header-top__basket">
+                        <div class="header-top__img _icon-basket"></div>
+                        <span class="header-top__count">1</span>
+                    </a>
+                    <a href="#" class="header-top__user">
+                        <div class="header-top__img _icon-user"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="header-main">
+                <ul class="header-main__list">
+                    <a href="index.html" class="header-main__logo">
+                        <img src="img/general/logo.svg" alt="Лого">
+                    </a>
+                    <li class="header-main__item">
+                        <a href="category.html" class="header-main__link">Все категории</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="brands.html" class="header-main__link">Бренды</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="women.html" class="header-main__link">Для женщин</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="man.html" class="header-main__link">Для мужчин</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="#" class="header-main__link">Подарочные наборы</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="#" class="header-main__link">Специальные цены</a>
+                    </li>
+                    <li class="header-main__item">
+                        <a href="not-found.html" class="header-main__link">Для профессионалов</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__inner">
+                    <a href="index.html" class="header-mobile__logo">
+                        <img src="img/general/logo.svg" alt="Лого">
+                    </a>
+                    <div class="header-top__search">
+                        <form class="form">
+                            <input placeholder="Поиск" type="text" class="form__input form__input--search">
+                            <button class="form__search">
+                                <div class="form__icon _icon-search"></div>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="header__block">
+                        <a href="#" class="header-top__basket">
+                            <div class="header-top__img _icon-basket"></div>
+                            <span class="header-top__count">1</span>
+                        </a>
+                        <div class="mobile">
+                            <div class="sandwich">
+                                <div class="sandwich__line sandwich__line--top"></div>
+                                <div class="sandwich__line sandwich__line--middle"></div>
+                                <div class="sandwich__line sandwich__line--bottom"></div>
+                            </div>
+                            <div class="mobile__content">
+                                <div class="mobile__block">
+                                    <ul class="mobile-nav__list">
+                                        <li class="mobile-nav__item">
+                                            <a href="#" class="mobile-nav__link">Доставка и оплата</a>
+                                        </li>
+                                        <li class="mobile-nav__item">
+                                            <a href="#" class="mobile-nav__link">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile__block">
+                                    <ul class="mobile-menu__list">
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Все категории</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Бренды</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для женщин</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для мужчин</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Подарочные наборы</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Специальные цены</a>
+                                        </li>
+                                        <li class="mobile-menu__item">
+                                            <a href="#" class="mobile-menu__link">Для профессионалов</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile__block">
+                                    <ul class="mobile-contacts__list">
+                                        <li class="mobile-contacts__item">
+                                            <a href="tel:+77272507702" class="mobile-contacts__link">
+                                                <div class="header-top__icon _icon-phone"></div>
+                                                <span>+7 727 250 77 02</span>
+                                            </a>
+                                        </li>
+                                        <li class="mobile-contacts__item">
+                                            <a href="#" class="mobile-contacts__link">
+                                                <div class="header-top__icon _icon-location"></div>
+                                                <span>Алматы</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="mobile-icon__list">
+                                        <li class="mobile-icon__item">
+                                            <a href="#" class="mobile-icon__link">
+                                                <div class="mobile-icon__img _icon-favorites"></div>
+                                            </a>
+                                        </li>
+                                        <li class="mobile-icon__item">
+                                            <a href="#" class="mobile-icon__link">
+                                                <div class="mobile-icon__img _icon-user"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__inner">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="index.html" class="breadcrumbs__link">
+                                <span>Главная</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="" class="breadcrumbs__link">
+                                <span>Косметика за лицом женщин</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="" class="breadcrumbs__link">
+                                <span>Бальзамы</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <div class="breadcrumbs__current">
+                                <span>Deep Repair Balm. Бальзам «Глубокое восстановление»</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="goods">
+            <div class="container">
+                <div class="goods__inner">
+                    <div class="goods__block">
+                        <div class="goods-info">
+                            <div class="goods-info__header">
+                                <span>Deep Repair Balm Бальзам <br>«Глубокое восстановление»</span>
+                            </div>
+                            <div class="goods-info__body">
+                                <div class="goods__img-wrapper anim-items anim-no-hide anim-scale">
+                                    <picture>
+                                        <source class="goods__img" srcset="img/product/06.webp" type="image/webp">
+                                        <img class="goods__img" src="img/product/06.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="goods-info__col">
+                                    <div class="goods-info__row">
+                                        <div class="goods-info__descr">10 шт. в наличии</div>
+                                        <div class="goods-info__name">Teoxane</div>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="rating__inner rating__inner--big">
+                                            <div class="rating__item" data-star="5">
+                                                <div class="rating__icon _icon-star"></div>
+                                            </div>
+                                            <div class="rating__item" data-star="4">
+                                                <div class="rating__icon _icon-star"></div>
+                                            </div>
+                                            <div class="rating__item" data-star="3">
+                                                <div class="rating__icon _icon-star"></div>
+                                            </div>
+                                            <div class="rating__item" data-star="2">
+                                                <div class="rating__icon _icon-star"></div>
+                                            </div>
+                                            <div class="rating__item" data-star="1">
+                                                <div class="rating__icon _icon-star"></div>
+                                            </div>
+                                        </div>
+                                        <span class="rating__text">0</span>
+                                    </div>
+                                    <div class="goods-info__row">
+                                        <div class="goods-info__volume">Объем:</div>
+                                        <ul class="goods-info__list">
+                                            <li class="goods-info__item">
+                                                <label class="radio">
+                                                    <input class="radio__input" type="radio" name="name1">
+                                                    <span class="radio__weight">50 мл</span>
+                                                </label>
+                                            </li>
+                                            <li class="goods-info__item">
+                                                <label class="radio">
+                                                    <input class="radio__input" checked type="radio" name="name1">
+                                                    <span class="radio__weight">125 мл</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="goods-info__box">
+                                        <div class="goods-info__line">
+                                            <img src="img/advantages/delivery.svg" alt="">
+                                            <span>Бесплатная доставка от 15 тысяч тенге (Алматы и Нур-Султан)</span>
+                                        </div>
+                                        <div class="goods-info__line">
+                                            <img src="img/advantages/card.svg" alt="">
+                                            <span>Оплата наличными, картой или переводом</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="goods-info__block">
+                                    <div class="goods-info__price">
+                                        <div class="goods-info__text">Цена:</div>
+                                        <div class="goods-info__sum">6 100 ₸</div>
+                                    </div>
+                                    <div class="counter">
+                                        <button class="counter__btn counter__btn--minus">&minus;</button>
+                                        <input class="counter__value" type="text" value="1">
+                                        <button class="counter__btn counter__btn--plus">&#43;</button>
+                                    </div>
+                                    <div class="goods-info__bottom">
+                                        <button class="btn btn--black">в корзину</button>
+                                        <div class="product__icon _icon-favorites"></div>
+                                    </div>
+                                </div>
+                                <div class="goods-info__hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods__block">
+                        <div class="goods__wrapper">
+                            <div class="goods__left">
+                                <div class="goods__name">Характеристики</div>
+                                <ul class="goods__list">
+                                    <li class="goods-item">
+                                        <div class="goods-item__left">Артикул:</div>
+                                        <div class="goods-item__right">0000000</div>
+                                    </li>
+                                    <li class="goods-item">
+                                        <div class="goods-item__left">Объем:</div>
+                                        <div class="goods-item__right">30 мл</div>
+                                    </li>
+                                    <li class="goods-item">
+                                        <div class="goods-item__left">Тип средства:</div>
+                                        <div class="goods-item__right">Косметика для ухода за лицом Бальзамы</div>
+                                    </li>
+                                    <li class="goods-item">
+                                        <div class="goods-item__left">Тип средства:</div>
+                                        <div class="goods-item__right">Для всех типов кожи, в том числе чувствительной
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="goods__right">
+                                <div class="goods__name">Описание</div>
+                                <p class="text">Бальзам с эффектом глубокого восстановления от Teoxane Deep
+                                    Repair
+                                    Balm. Бальзам содержит целый комплекс компонентов, которые помогают моментально
+                                    восстановить кожу. Бальзам может быть использован в качестве ночного крема или
+                                    средства
+                                    экстренной защиты после пребывания на солнце. Обладает восстанавливающим действием.
+                                    Увлажняет и успокаивает. Уменьшает покраснения.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods__block">
+                        <div class="goods__name">Способ применения</div>
+                        <p class="text">Наносите бальзам на сухие и наиболее чувствительные участки кожи легкими
+                            массирующими движениями так часто, как это необходимо.
+                            Может использоваться после эстетических процедур, чтобы успокоить кожу.</p>
+                    </div>
+                    <div class="goods__block">
+                        <div class="goods__name">Бренд</div>
+                        <p class="text">Наносите бальзам на сухие и наиболее чувствительные участки кожи легкими
+                            массирующими движениями так часто, как это необходимо.
+                            Может использоваться после эстетических процедур, чтобы успокоить кожу.</p>
+                        <div class="goods-row">
+                            <div class="goods-row__header">
+                                <div class="goods-row__img-wrapper">
+                                    <img class="goods-row__img" src="img/brands/01.png" alt="">
+                                </div>
+                                <span>Космецевтика TEOXANE (Швейцария)</span>
+                            </div>
+                            <div class="goods-row__body">
+                                <p class="text">Высококачественная профессиональная косметика для домашнего ухода
+                                    Лаборатория Teoxane предлагает гамму космецевтических препаратов по уходу за лицом,
+                                    шеей, областью декольте и особенно чувствительной зоной вокруг глаз Teoxane
+                                    Cosmeceuticals . Космецевтика производит самостоятельный омолаживающий эффект и
+                                    поддерживает высокий уровень результатов мезотерапевтических процедур. Средства
+                                    ухода оказывают противовоспалительное и успокаивающее действие, заметно ускоряют
+                                    регенерацию кожи, создают приятное ощущение комфорта сразу после процедуры.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__header">
+                    <h2 class="title">Отзывы</h2>
+                </div>
+                <div class="reviews__body">
+                    <div class="reviews__main">
+                        <div class="reviews__item">
+                            <div class="reviews__left">
+                                <div class="reviews__top">
+                                    <div class="reviews__img-wrapper anim-items anim-no-hide anim-scale">
+                                        <picture>
+                                            <source class="reviews__img" srcset="img/reviews/01.webp" type="image/webp">
+                                            <img class="reviews__img" src="img/reviews/01.png" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="reviews__name">Самал Жумалиева</div>
+                                </div>
+                                <div class="reviews__bottom">
+                                    <p class="text">Отличное средство Deep Repair Balm Бальзам «Глубокое
+                                        восстановление»!
+                                        Начало действовать после трех дней применения! Всем рекомендую!</p>
+                                </div>
+                            </div>
+                            <div class="reviews__right">
+                                <div class="rating">
+                                    <div class="rating__inner">
+                                        <div class="rating__item" data-star="5">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="4">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="3">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="2">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="1">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reviews__date text">01.09.2010</div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__left">
+                                <div class="reviews__top">
+                                    <div class="reviews__img-wrapper anim-items anim-no-hide anim-scale">
+                                        <picture>
+                                            <source class="reviews__img" srcset="img/reviews/02.webp" type="image/webp">
+                                            <img class="reviews__img" src="img/reviews/01.png" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="reviews__name">Самал Жумалиева</div>
+                                </div>
+                                <div class="reviews__bottom">
+                                    <p class="text">Отличное средство Deep Repair Balm Бальзам «Глубокое
+                                        восстановление»!
+                                        Начало действовать после трех дней применения! Всем рекомендую!</p>
+                                </div>
+                            </div>
+                            <div class="reviews__right">
+                                <div class="rating">
+                                    <div class="rating__inner">
+                                        <div class="rating__item" data-star="5">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="4">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="3">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="2">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="1">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reviews__date text">01.09.2010</div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__left">
+                                <div class="reviews__top">
+                                    <div class="reviews__img-wrapper anim-items anim-no-hide anim-scale">
+                                        <picture>
+                                            <source class="reviews__img" srcset="img/reviews/03.webp" type="image/webp">
+                                            <img class="reviews__img" src="img/reviews/03.png" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="reviews__name">Самал Жумалиева</div>
+                                </div>
+                                <div class="reviews__bottom">
+                                    <p class="text">Отличное средство Deep Repair Balm Бальзам «Глубокое
+                                        восстановление»!
+                                        Начало действовать после трех дней применения! Всем рекомендую!</p>
+                                </div>
+                            </div>
+                            <div class="reviews__right">
+                                <div class="rating">
+                                    <div class="rating__inner">
+                                        <div class="rating__item" data-star="5">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="4">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="3">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="2">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="1">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reviews__date text">01.09.2010</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__aside">
+                        <div class="reviews__block">
+                            <div class="reviews__inner">
+                                <div class="reviews__name">4 отзыва</div>
+                                <div class="rating">
+                                    <div class="rating__inner rating__inner--big">
+                                        <div class="rating__item" data-star="5">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="4">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="3">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="2">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                        <div class="rating__item" data-star="1">
+                                            <div class="rating__icon _icon-star"></div>
+                                        </div>
+                                    </div>
+                                    <span class="rating__text">0</span>
+                                </div>
+                                <div class="reviews__lines">
+                                    <div class="reviews__line">
+                                        <span class="reviews__number">5</span>
+                                        <div class="reviews__icon _icon-star"></div>
+                                        <div class="reviews-way">
+                                            <div class="reviews-way__current" style="width:80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__line">
+                                        <span class="reviews__number">4</span>
+                                        <div class="reviews__icon _icon-star"></div>
+                                        <div class="reviews-way">
+                                            <div class="reviews-way__current" style="width:60%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__line">
+                                        <span class="reviews__number">3</span>
+                                        <div class="reviews__icon _icon-star"></div>
+                                        <div class="reviews-way">
+                                            <div class="reviews-way__current" style="width:40%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__line">
+                                        <span class="reviews__number">2</span>
+                                        <div class="reviews__icon _icon-star"></div>
+                                        <div class="reviews-way">
+                                            <div class="reviews-way__current" style="width:20%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__line">
+                                        <span class="reviews__number">1</span>
+                                        <div class="reviews__icon _icon-star"></div>
+                                        <div class="reviews-way">
+                                            <div class="reviews-way__current" style="width:0%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__descr text">Только зарегистрированные пользователи могут оставлять
+                                отзывы.<a href="" class="reviews__link">Войдите</a> или <a href=""
+                                    class="reviews__link">зарегистрируйтесь</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interest">
+            <div class="container">
+                <div class="interest__header anim-items anim-no-hide anim-show">
+                    <h2 class="title"><span>Вас также</span> заинтересует</h2>
+                </div>
+                <div class="interest__body">
+                    <div class="interest__container swiper-container">
+                        <div class="interest__wrapper swiper-wrapper">
+                            <div class="interest__slide swiper-slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img class="product__payot" src="img/product/05.png" alt="">
+                                        <img class="product__zont" src="img/general/zont.svg" alt="">
+                                        <div class="product__action">АКЦИЯ</div>
+                                        <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                            <picture>
+                                                <source class="product__img" srcset="img/product/01.webp"
+                                                    type="image/webp">
+                                                <img class="product__img" src="img/product/01.png" alt="">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="product__body">
+                                        <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                                        <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                                    </div>
+                                    <div class="product__footer">
+                                        <div class="product-size">
+                                            <div class="product-size__small">50 мл</div>
+                                            <div class="product-size__big">125 мл</div>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price__old">5 100 ₸</div>
+                                            <div class="product-price__new">6 100 ₸</div>
+                                        </div>
+                                        <div class="product__bottom">
+                                            <button class="btn">купить</button>
+                                            <div class="product__icon _icon-favorites"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="interest__slide swiper-slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img class="product__payot" src="img/product/05.png" alt="">
+                                        <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                            <picture>
+                                                <source class="product__img" srcset="img/product/02.webp"
+                                                    type="image/webp">
+                                                <img class="product__img" src="img/product/02.png" alt="">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="product__body">
+                                        <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                                        <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                                    </div>
+                                    <div class="product__footer">
+                                        <div class="product-size">
+                                            <div class="product-size__small">50 мл</div>
+                                            <div class="product-size__big">125 мл</div>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price__old">5 100 ₸</div>
+                                            <div class="product-price__new">6 100 ₸</div>
+                                        </div>
+                                        <div class="product__bottom">
+                                            <button class="btn">купить</button>
+                                            <div class="product__icon _icon-favorites"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="interest__slide swiper-slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img class="product__payot" src="img/product/05.png" alt="">
+                                        <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                            <picture>
+                                                <source class="product__img" srcset="img/product/03.webp"
+                                                    type="image/webp">
+                                                <img class="product__img" src="img/product/03.png" alt="">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="product__body">
+                                        <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                                    </div>
+                                    <div class="product__footer">
+                                        <div class="product-size">
+                                            <div class="product-size__small">50 мл</div>
+                                            <div class="product-size__big">125 мл</div>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price__old">5 100 ₸</div>
+                                            <div class="product-price__new">6 100 ₸</div>
+                                        </div>
+                                        <div class="product__bottom">
+                                            <button class="btn">купить</button>
+                                            <div class="product__icon _icon-favorites"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="interest__slide swiper-slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img class="product__payot" src="img/product/05.png" alt="">
+                                        <img class="product__zont" src="img/general/zont.svg" alt="">
+                                        <div class="product__action">АКЦИЯ</div>
+                                        <a href="" class="product__img-wrapper anim-items anim-no-hide anim-scale">
+                                            <picture>
+                                                <source class="product__img" srcset="img/product/04.webp"
+                                                    type="image/webp">
+                                                <img class="product__img" src="img/product/04.png" alt="">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="product__body">
+                                        <a href="" class="product__name">MY PAYOT BRUME ECLAT</a>
+                                        <a href="" class="product__text">Стимулирующая защитная дымка для лица</a>
+                                    </div>
+                                    <div class="product__footer">
+                                        <div class="product-size">
+                                            <div class="product-size__small">50 мл</div>
+                                            <div class="product-size__big">125 мл</div>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price__old">5 100 ₸</div>
+                                            <div class="product-price__new">6 100 ₸</div>
+                                        </div>
+                                        <div class="product__bottom">
+                                            <button class="btn">купить</button>
+                                            <div class="product__icon _icon-favorites"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <div class="product__arrow _icon-arrow-prev"></div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <div class="product__arrow _icon-arrow-next"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__col">
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для женщин</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для мужчин</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Подарочные наборы</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Специальные цены</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__col footer-top__col--center">
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Бренды</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Для профессионалов</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">О компании</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="#" class="footer-top__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__col">
+                    <ul class="footer-top__list footer-top__list--row">
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/hamilton.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/payot.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a href="" class="footer-top__link">
+                                <img src="img/footer/teoxane.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__col">
+                    <a href="index.html" class="footer-bottom__logo">
+                        <img src="img/footer/logo.svg" alt="Лого">
+                    </a>
+                </div>
+                <div class="footer-bottom__col footer-bottom__col--center">
+                    <div class="footer-bottom__copyright">Все права защищены 2003-2020<a href="#"
+                            class="footer-bottom__link">Политика конфиденциальности</a></div>
+                    <ul class="footer-bottom__list">
+                        <li class="footer-bottom__item">
+                            <a href="" class="footer-bottom__link">
+                                <div class="footer-bottom__icon _icon-instagram"></div>
+                            </a>
+                        </li>
+                        <li class="footer-bottom__item">
+                            <a href="" class="footer-bottom__link">
+                                <div class="footer-bottom__icon _icon-facebook"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom__col">
+                    <a href="" class="footer-bottom__grad">
+                        <img src="img/footer/grad.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top"></button>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

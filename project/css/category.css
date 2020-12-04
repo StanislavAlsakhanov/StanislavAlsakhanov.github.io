@@ -1,0 +1,216 @@
+/* Category */
+.category {
+    padding-bottom: 50px;
+}
+.category .title {
+    margin-bottom: 20px;
+}
+.category__filter {
+    display: none;
+    margin-bottom: 17px;
+}
+.category__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    padding: 13px;
+}
+.category__toggle:hover {
+    color: #f33238;
+}
+.category__icon {
+    margin-right: 10px;
+}
+.category__content {
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    padding: 30px 30px 10px;
+    border-top: 0;
+}
+.category__body {
+    display: flex;
+    align-items: flex-start;
+}
+.category__aside {
+    flex: 0 0 255px;
+    width: 255px;
+    margin: 13px 30px 0 0;
+}
+.category__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -13px;
+}
+.category__inner > * {
+    flex: 1;
+    min-width: 25%;
+    max-width: calc(33.33333% - 26px);
+    margin: 13px;
+}
+.category__text {
+    line-height: 1.5;
+    color: #3f3f3f;
+    margin-top: 70px;
+}
+@media (max-width: 991px) {
+    .category__inner {
+        margin: 0 -5px;
+    }
+    .category__inner > * {
+        min-width: 40%;
+        max-width: calc(50% - 10px);
+        margin: 13px 5px;
+    }
+}
+@media (max-width: 767px) {
+    .category__filter {
+        display: block;
+    }
+    .category__aside {
+        display: none;
+    }
+}
+@media (max-width: 567px) {
+    .category__bootom {
+        margin-top: 15px;
+    }
+    .category__text {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 413px) {
+    .category__content {
+        padding: 20px 15px 5px;
+    }
+}
+
+/* Filter */
+.filter__block {
+    margin-bottom: 40px;
+}
+.filter__block:last-child {
+    margin-bottom: 0;
+}
+.filter__name {
+    font-size: 18px;
+    font-family: "Montserrat-600";
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.filter__item {
+    margin-bottom: 18px;
+}
+.filter__link {
+    color: #3f3f3f;
+    margin-left: 15px;
+}
+.filter__link--big {
+    font-size: 16px;
+    color: #000;
+    margin-left: 0;
+}
+.filter__link.active {
+    font-family: "Montserrat-600";
+}
+.filter-slider__values {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.filter-slider__value {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    outline: none;
+    padding: 7px 15px;
+}
+.filter-slider__line {
+    width: 60px;
+    height: 1px;
+    margin: 0 10px;
+    flex-shrink: 0;
+    background: #c4c4c4;
+}
+.filter-slider__range.noUi-target {
+    height: 2px;
+    border: none;
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.25);
+}
+.filter-slider__range .noUi-connect {
+    background: #000;
+}
+.filter-slider__range .noUi-handle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    right: -15px;
+    background: #000;
+}
+.filter-slider__range .noUi-handle.noUi-handle-upper {
+    right: 0;
+}
+.filter-slider__range .noUi-handle::before,
+.filter-slider__range .noUi-handle::after {
+    display: none;
+}
+@media (max-width: 413px) {
+    .filter__name {
+        font-size: 16px;
+    } 
+}
+
+/* checkbox */
+.checkbox {
+    display: block;
+    position: relative;
+    user-select: none;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.checkbox:hover .checkbox__custom::after {
+    opacity: 1;
+}
+.checkbox:hover .checkbox__text {
+    color: #f33238;
+}
+.checkbox__input {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}
+.checkbox__input:checked ~ .checkbox__custom::after {
+    opacity: 1;
+}
+.checkbox__custom {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.checkbox__custom::after {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+}
+.checkbox__text {
+    font-size: 16px;
+    transition: all 0.2s ease 0s;
+}
