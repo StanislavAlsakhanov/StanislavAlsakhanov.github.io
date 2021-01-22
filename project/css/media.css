@@ -1,0 +1,753 @@
+@media (max-width: 1220px) {
+    .nav__layer {
+        height: 50px;
+    }
+    .nav__border,
+    .nav__border-hidden {
+        height: 55px;
+    }
+    .nav__link {
+        font-size: 22px;
+    }
+    .intro__header {
+        height: 170px;
+    }
+    .title {
+        top: 112px;
+        left: 50%;
+        font-size: 27px;
+    }
+    .title__img {
+        height: 170px;
+        left: 51%;
+        top: 80px;
+    }
+    .intro__img5 {
+        height: 140px;
+    }
+    .intro__body {
+        height: 420px;
+    }
+    .bottom__img {
+        height: 330px;
+        left: 51%;
+    }
+    .img__play {
+        height: 95px;
+    }
+    .intro__footer {
+        height: 323px;
+    }
+    .intro__content {
+        max-width: 855px;
+        padding-top: 15px;
+    }
+    .intro__content::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: -15px;
+    }
+    .intro__img7 {
+        height: 350px;
+    }
+    .intro__img8 {
+        height: 250px;
+        right: 0;
+    }
+    .intro__text {
+        max-width: 530px;
+    }
+    .text {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .intro::after {
+        height: 345px;
+    }
+    .discipline__header {
+        height: 90px;
+    }
+    .discipline .title {
+        top: 33px;
+    }
+    .discipline__slide {
+        height: 420px;
+    }
+    .discipline .bottom__img {
+        height: 510px;
+    }
+    .discipline__nav {
+        margin: 15px;
+    }
+    .discipline__layer {
+        height: 65px;
+    }
+    .discipline__border,
+    .discipline__border-hidden {
+        height: 75px;
+    }
+    .discipline__name {
+        font-size: 18px;
+    }
+    .discipline__nav::before {
+        width: 37px;
+        height: 37px;
+        top: 14px;
+        right: -17px;
+    }
+    .discipline__nav::after {
+        width: 37px;
+        height: 37px;
+        top: 14px;
+        left: -21px;
+    }
+    .discipline__bottom {
+        max-width: 870px;
+    }
+    .discipline__bottom::before {
+        right: 0;
+    }
+    .discipline__img9 {
+        height: 250px;
+    }
+    .discipline__img10 {
+        height: 200px;
+        margin-right: 0;
+    }
+    .discipline__img11 {
+        height: 190px;
+    }
+    .discipline__img12 {
+        height: 180px;
+        margin-right: 0;
+    }
+    .discipline__footer {
+        height: 500px;
+    }
+    .lessons__header {
+        height: 50px;
+    }
+    .lessons .title {
+        top: 8px;
+    }
+    .lessons__body {
+        height: 430px;
+    }
+    .lessons .bottom__img {
+        height: 360px;
+        left: 51.3%;
+    }
+    .lessons__content {
+        max-width: 865px;
+    }
+    .lessons__img13 {
+        height: 240px;
+        margin-right: 15px;
+    }
+    .lessons__content::before {
+        top: -5px;
+        left: 0;
+        right: 0;
+        bottom: 20px;
+    }
+    .lessons__text {
+        margin: 5px 0 0 52px;
+    }
+    .lessons__footer {
+        height: 346px;
+    }
+    .lessons::after {
+        height: 380px;
+    }
+    .project {
+        margin-top: -10px;
+    }
+    .project__header {
+        height: 10px;
+    }
+    .project .title {
+        top: -44px;
+    }
+    .project__body {
+        height: 420px;
+    }
+    .project .bottom__img {
+        top: -23px;
+        height: 405px;
+        left: 51.6%;
+    }
+    .project__img,
+    .project__img-hidden {
+        height: 85px;
+    }
+    .project__name {
+        font-size: 18px;
+    }
+    .project__footer {
+        height: 383px;
+    }
+    .project::after {
+        height: 280px;
+    }
+    .arrow {
+        top: 45%;
+    }
+    .project__bottom {
+        max-width: 875px;
+        margin: 10px auto;
+    }
+    .project__bottom::before {
+        top: -20px;
+        left: 0px;
+        right: 0;
+    }
+    .project__label {
+        font-size: 45px;
+    }
+    .workshop__header {
+        height: 25px;
+    }
+    .workshop .title {
+        top: -31px;
+    }
+    .workshop__body {
+        height: 430px;
+    }
+    .workshop__content {
+        max-width: 873px;
+    }
+    .workshop__footer {
+        height: 310px;
+    }
+    .workshop::after {
+        height: 315px;
+    }
+    .workshop__img13 {
+        height: 250px;
+        margin-right: 0;
+    }
+    .workshop__text {
+        margin-left: 60px;
+    }
+    .close {
+        top: -60px;
+        right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav__layer {
+        height: 42px;
+    }
+    .nav__border,
+    .nav__border-hidden {
+        height: 46px;
+    }
+    .nav__link {
+        font-size: 18px;
+    }
+    .nav__item::before {
+        width: 25px;
+        height: 25px;
+        top: 10px;
+        right: -12px;
+    }
+    .nav__item::after {
+        width: 25px;
+        height: 25px;
+        top: 12px;
+    }
+    .intro::before {
+        height: 140px;
+    }
+    .intro__header {
+        height: 140px;
+    }
+    .intro__img5 {
+        height: 110px;
+    }
+    .title {
+        font-size: 24px;
+        top: 91px;
+    }
+    .title__img {
+        height: 150px;
+        top: 62px;
+    }
+    .intro__body {
+        height: 350px;
+    }
+    .img__play {
+        height: 80px;
+    }
+    .intro__footer {
+        height: 240px;
+    }
+    .bottom__img {
+        height: 265px;
+    }
+    .intro__content {
+        max-width: 686px;
+        padding-top: 10px;
+    }
+    .intro::after {
+        height: 265px;
+    }
+    .text {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .intro__img7 {
+        height: 300px;
+    }
+    .intro__img8 {
+        height: 200px;
+    }
+    .intro__text {
+        max-width: 415px;
+    }
+    .intro__content::before {
+        top: -5px;
+        left: -2px;
+    }
+    .discipline {
+        margin-top: -62px;
+    }
+    .discipline__header {
+        height: 83px;
+    }
+    .discipline__left,
+    .discipline__right {
+        display: block;
+    }
+    .discipline .title {
+        top: 29px;
+    }
+    .discipline__slide {
+        height: 330px;
+    }
+    .discipline .bottom__img {
+        height: 410px;
+        top: -23px;
+        left: 51.5%;
+    }
+    .discipline__footer {
+        height: 425px;
+    }
+    .discipline__middle {
+        margin: 0 auto;
+    }
+    .discipline::after {
+        height: 330px;
+    }
+    .discipline__bottom {
+        max-width: 700px;
+    }
+    .discipline__item {
+        padding-top: 0;
+    }
+    .discipline__img9 {
+        height: 200px;
+    }
+    .discipline__text--1 {
+        margin-right: 15px;
+    }
+    .discipline__img10 {
+        height: 160px;
+    }
+    .discipline__img11 {
+        height: 150px;
+    }
+    .discipline__text--3 {
+        margin-left: 40px;
+        margin-right: 15px;
+    }
+    .discipline__text--4 {
+        margin: 15px -30px 0 45px;
+    }
+    .discipline__img12 {
+        height: 150px;
+        margin-right: -10px;
+    }
+    .lessons__header {
+        height: 40px;
+    }
+    .lessons__body {
+        height: 350px;
+    }
+    .lessons__img13 {
+        height: 200px;
+    }
+    .lessons__content::before {
+        right: 0;
+        bottom: 0;
+    }
+    .lessons .bottom__img {
+        height: 290px;
+        top: -32px;
+    }
+    .lessons__content {
+        max-width: 696px;
+    }
+    .lessons__footer {
+        height: 257px;
+    }
+    .lessons::after {
+        height: 280px;
+    }
+    .project {
+        margin-top: 27px;
+    }
+    .project__header {
+        height: 0;
+    }
+    .project .title {
+        top: -48px;
+    }
+    .project__body {
+        height: 330px;
+    }
+    .project .bottom__img {
+        height: 320px;
+    }
+    .project__middle {
+        padding: 2px 0px 15px;
+    }
+    .project__left img,
+    .project__right img {
+        height: 45px;
+    }
+    .project__bottom {
+        max-width: 690px;
+    }
+    .project__footer {
+        height: 298px;
+    }
+    .project__content {
+        max-width: 755px;
+        padding: 0px 15px;
+    }
+    .project__inner {
+        margin: 0;
+    }
+    .project__label {
+        font-size: 40px;
+    }
+    .workshop__header {
+        height: 40px;
+    }
+    .workshop .title__img {
+        top: -42px;
+    }
+    .workshop .title {
+        top: -12px;
+    }
+    .workshop__body {
+        height: 350px;
+    }
+    .workshop__content {
+        max-width: 700px;
+    }
+    .workshop .bottom__img {
+        top: -2px;
+    }
+    .workshop__text {
+        margin: 27px -10px 23px 45px;
+    }
+    .workshop__img13 {
+        height: 200px;
+        margin-right: -20px;
+    }
+    .workshop__content::before {
+        top: 19px;
+    }
+    .close {
+        width: 40px;
+        height: 40px;
+        top: -50px;
+        right: 0;
+    }
+    .close::before,
+    .close::after {
+        height: 40px;
+        width: 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        background-color: transparent;
+        padding: 0;
+    }
+    .header__toggle {
+        display: block;
+    }
+    .nav {
+        position: fixed;
+        top: 0;
+        top: -500px;
+        z-index: 5;
+        overflow: auto;
+        transition: all 0.5s ease 0s;
+    }
+    .nav__img20 {
+        display: block;
+    }
+    .nav__list {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 15px 0;
+    }
+    .nav__item {
+        margin: 8px 0;
+    }
+    .intro::before {
+        height: 100px;
+    }
+    .intro__header {
+        height: 100px;
+    }
+    .intro__img5 {
+        height: 90px;
+    }
+    .title__img {
+        height: 130px;
+        top: 50px;
+    }
+    .title {
+        font-size: 21px;
+        top: 74px;
+    }
+    .img__play {
+        height: 65px;
+    }
+    .intro__content {
+        padding-top: 5px;
+    }
+    .intro__img7,
+    .intro__img8 {
+        display: none;
+    }
+    .intro__text {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .text {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .discipline__header {
+        height: 72px;
+    }
+    .discipline .title {
+        top: 25px;
+    }
+    .discipline__text {
+        margin: 0 15px;
+    }
+    .discipline__text--4 {
+        margin-top: 10px;
+    }
+    .discipline__img9,
+    .discipline__img10,
+    .discipline__img11,
+    .discipline__img12 {
+        display: none !important;
+    }
+    .lessons__header {
+        height: 30px;
+    }
+    .lessons .title {
+        top: -4px;
+    }
+    .lessons__text {
+        margin: 10px 15px;
+    }
+    .lessons__img13 {
+        display: none;
+    }
+    .project .title__img {
+        top: -72px;
+    }
+    .project__label {
+        font-size: 35px;
+    }
+    .workshop .title {
+        top: 1px;
+    }
+    .workshop .title__img {
+        top: -24px;
+    }
+    .workshop__footer {
+        height: 263px;
+    }
+    .workshop::after {
+        height: 265px;
+    }
+    .workshop__text {
+        margin: 30px 15px;
+    }
+    .workshop__img13 {
+        display: none;
+    }
+}
+
+@media (max-width: 567px) {
+    .title__img {
+        height: 110px;
+        left: 52%;
+    }
+    .title {
+        font-size: 18px;
+        top: 70px;
+    }
+    .discipline__header {
+        height: 60px;
+    }
+    .discipline .title {
+        top: 20px;
+    }
+    .bottom__img {
+        height: 302px;
+        top: -35px;
+    }
+    .discipline__footer {
+        height: 459px;
+    }
+    .discipline .bottom__img {
+        height: 496px;
+        top: -40px;
+    }
+    .discipline__bottom::before {
+        top: 9px;
+    }
+    .lessons {
+        padding-top: 52px;
+    }
+    .lessons__header {
+        height: 20px;
+    }
+    .lessons .title {
+        top: -9px;
+    }
+    .lessons .bottom__img {
+        height: 310px;
+    }
+    .project .title__img {
+        top: -43px;
+    }
+    .project .title {
+        top: -22px;
+    }
+    .workshop .title__img {
+        top: -19px;
+    }
+    .workshop .title {
+        top: 2px;
+    }
+    .workshop .bottom__img {
+        top: -7px;
+    }
+    .popup__inner {
+        padding: 10px;
+    }
+    .close {
+        width: 30px;
+        height: 30px;
+        top: -40px;
+        right: 0;
+    }
+    .close::before,
+    .close::after {
+        height: 30px;
+        width: 3px;
+    }
+}
+
+@media (max-width: 413px) {
+    .intro__text {
+        padding: 10px 15px;
+    }
+    .discipline {
+        margin-top: 0;
+    }
+    .lessons .bottom__img {
+        height: 340px;
+        top: -37px;
+    }
+    .project .title__img {
+        top: -10px;
+    }
+    .project .title {
+        top: 11px;
+    }
+    .project__header {
+        height: 50px;
+    }
+    .project .bottom__img {
+        height: 350px;
+        top: -30px;
+    }
+    .project__bottom::before {
+        top: -11px;
+    }
+    .workshop__header {
+        height: 30px;
+    }
+    .workshop .title__img {
+        top: -24px;
+    }
+    .workshop__footer {
+        height: 275px;
+    }
+    .workshop {
+        margin-top: 17px;
+    }
+    .workshop .title {
+        top: -3px;
+    }
+    .title {
+        font-size: 16px;
+        top: 73px;
+    }
+    .discipline .title {
+        top: 23px;
+    }
+}
+
+@media (max-width: 360px) {
+    .lessons {
+        padding-top: 74px;
+    }
+    .lessons .bottom__img {
+        height: 350px;
+    }
+    .lessons__header {
+        height: 0;
+    }
+    .lessons .title__img {
+        top: -55px;
+    }
+    .lessons .title {
+        top: -23px;
+    }
+    .project__header {
+        height: 60px;
+    }
+    .project .title__img {
+        top: 0;
+    }
+    .project .title {
+        top: 23px;
+    }
+    .workshop .title__img {
+        top: -10px;
+    }
+    .workshop .title {
+        top: 13px;
+    }
+}
